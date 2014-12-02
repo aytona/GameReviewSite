@@ -1,0 +1,183 @@
+@font-face
+{
+	font-family: cubic;
+	src: url("../Fonts/cubic.ttf");
+}
+@font-face
+{
+	font-family: ka1;
+	src: url("../Fonts/ka1.ttf");
+}
+@font-face
+{
+	font-family: scorchedearth;
+	src: url("../Fonts/ScorchedEarth.otf");
+}
+body
+{
+	background: -webkit-linear-gradient(#ffffff, #6EA6CA);
+	background: linear-gradient(#ffffff, #6EA6CA);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+ul
+{
+	font-family: ka1;
+	font-size: 22px;
+	text-align: center;
+	display: inline;
+	margin: 0;
+	padding: 30px;
+	list-style: none;
+	-webkit-box-shadow: 0 0 10px #ADADAD;
+	box-shadow: 0 0 10px #ADADAD;
+}
+ul li
+{
+	display: inline;
+	font-family: ka1;
+	position: relative;
+	margin-right: 30px;
+	padding: 25px;
+	background: inherit;
+	cursor: pointer;
+	-webkit-trainsition: all 0.3s;
+	transition: all 0.3s;
+}
+ul li:hover
+{
+	background: #ADADAD;
+	color: #87CEFA;
+}
+ul li ul
+{
+	padding: 0;
+	position: absolute;
+	top: 75px;
+	left: 0;
+	width: 237px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.1s;
+	transition: opacity 0.1s;
+}
+ul li:hover ul
+{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+ul li ul li
+{
+	background: #ADADAD;
+	display: block;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 #000000;
+}
+ul li ul li:hover
+{
+	background: #ADADAD;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+h1
+{
+	font-family: scorchedearth;
+	font-size: 50px;
+	padding-bottom: 25px;
+	color: #6EA6CA;
+}
+h2
+{
+	font-family: scorchedearth;
+	font-size: 30px;
+	padding-top: 30px;
+}
+h3
+{
+	font-family: scorchedearth;
+	font-size: 27px;
+	color: red;
+}
+h4
+{
+	font-family:cubic;
+	font-size: bold;
+}
+p
+{
+	font-family: georgian;
+	font-size: 20px;
+}
+a:hover
+{
+	cursor: pointer;
+}
+table
+{
+	font-family:ka1;
+	font-size: 15px;
+	border: 5px solid black;
+	color: inherit;
+}
+td
+{
+	padding: 20px;
+}
+td:hover
+{
+	cursor: pointer;
+}
+.content
+{
+	width: 800px;
+	background-color: inherit;
+	border-style: outset;
+	border-radius: 5px;
+	margin: 10px;
+	margin-left: 30px;
+	padding: 20px;
+}
+.button-wiki
+{
+	color: white;
+	border-radius: 3px;
+	background: green;
+	opacity: 0.75;
+}
+.button-buy
+{
+	color: white;
+	border-radius: 3px;
+	background: blue;
+	opacity: 0.75;
+}
+#stage
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-color: inherit;
+}
+#tableofcontent
+{
+	text-align: text-top;
+	position: fixed;
+	top: 200px;
+	left: 30px;
+}
+img.bg1
+{
+	float: right;
+	opacity: 0.15;
+	margin-top: -560px;
+	margin-bottom: 10px;
+	margin-right: 25px;
+}
